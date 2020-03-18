@@ -717,7 +717,9 @@ img{
 @media(min-width:992px){
     #marquee div{
         left:-50%;
-        font-size:4.2rem;
+        font-size:4rem;
+        height: 5.7rem;
+        width: 9.8rem;
     }
     #marquee div:first-of-type {
         -webkit-transform: rotateY(-30deg);
