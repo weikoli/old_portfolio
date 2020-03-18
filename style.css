@@ -624,10 +624,10 @@ img{
   
   #marquee div {
     display: inline-block;
-    height: 5.9rem;
-    width: 9.8rem;
+    height: 5.3rem;
+    width: 9rem;
     position: relative;
-    left: 5%;
+    left: 20%;
     /* right: 50%; */
   }
 
@@ -655,7 +655,7 @@ img{
   }
   
   #marquee div {
-    font-size: 4rem;
+    font-size: 3.5rem;
     letter-spacing:0.3rem;
     overflow: hidden;
     margin: auto;
@@ -664,23 +664,23 @@ img{
   
   #marquee div span {
     position: absolute;
-    width: 400%;
+    width: 600%;
     line-height: 1.4;
   }
   
   #marquee div:first-of-type span {
     -webkit-transform: translateX(40rem);
             transform: translateX(40rem);
-    -webkit-animation: leftcrawl 7s linear infinite;
-            animation: leftcrawl 7s linear infinite;
+    -webkit-animation: leftcrawl 6s linear infinite;
+            animation: leftcrawl 6s linear infinite;
     text-shadow: 4px 0px 4px rgba(0, 0, 0, 0.3);
   }
   
   #marquee div:last-of-type span {
     -webkit-transform: translateX(20rem);
             transform: translateX(20rem);
-    -webkit-animation: rightcrawl 7s linear infinite;
-            animation: rightcrawl 7s linear infinite;
+    -webkit-animation: rightcrawl 6s linear infinite;
+            animation: rightcrawl 6s linear infinite;
   }
   
   @-webkit-keyframes leftcrawl {
@@ -704,8 +704,8 @@ img{
   }
   @keyframes rightcrawl {
     to {
-      -webkit-transform: translateX(-79rem);
-              transform: translateX(-79rem);
+      -webkit-transform: translateX(-85rem);
+              transform: translateX(-85rem);
     }
   }
 
