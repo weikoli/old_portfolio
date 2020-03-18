@@ -560,6 +560,10 @@ img{
     letter-spacing: 2px;
     text-decoration: underline;
 }
+.projectpic i{
+    font-size: 25px;
+    padding:0 20px;
+}
 .album h3{
     font-size:16px;
     margin-top:70px;
@@ -597,6 +601,9 @@ img{
     }
     #link2{
         margin-bottom: 70px;
+    }
+    .projectpic i{
+        font-size: 30px;
     }
 }
 @media(min-width:1200px){
