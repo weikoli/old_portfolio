@@ -353,6 +353,7 @@ img{
     #link:hover{
         color: rgb(0, 0, 0);
         background-color: rgb(221, 233, 154);
+        transition: .5s;
     }
 }
 @media (min-width:1200px){
@@ -536,6 +537,7 @@ img{
     color: white;
     background-color: steelblue;
     margin-bottom: 20px;
+    box-shadow:2px 2px 5px grey;
     /* margin:20px auto; */
 }
 .projectpic{
@@ -562,6 +564,13 @@ img{
     letter-spacing: 2px;
     text-decoration: underline;
 }
+.projectpic h3{
+    font-size: 22px !important;
+    margin-top:30px;
+    margin-bottom:30px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
 .projectpic i{
     font-size: 25px;
     padding:0 20px;
@@ -580,6 +589,7 @@ img{
 .album img{
     padding:20px 50px;
 }
+
 
 @media(min-width:767px){
     .album img{
