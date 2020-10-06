@@ -137,7 +137,7 @@ img{
     font-size:20px;
     margin:0;
 }
-.in_tro h3{
+.in_tro h3 {
     color:rgba(0, 0, 0, 0.644);
     letter-spacing: 2px;
     line-height: 30px;
@@ -156,6 +156,7 @@ img{
     padding:50px 0px 50px 0;
     background-color: rgba(255, 255, 255, 0.911);
     top:70px;    
+    box-shadow:20px 20px 50px grey;  
 }
 
 .col-xs-6{
@@ -206,6 +207,7 @@ img{
     margin: auto;
     color: white;
     background-color: steelblue;
+    box-shadow:2px 2px 5px grey;
 }
 
 .none{
@@ -781,9 +783,11 @@ img{
 .further_intro{
     margin:40px 20px;
 }
-.further_intro h3{
+.further_intro p{
     letter-spacing: 2px;
-    font-weight: 700;
+    font-size:18px;
+    color:rgba(0, 0, 0, 0.644);
+    line-height: 30px;
 }
 
 @media(min-width:767px){
