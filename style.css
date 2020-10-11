@@ -7,7 +7,21 @@ body,html{
     font-family: "Microsoft Jhenghei";
     background-color: #f1f1f6;
 }
-
+hr {
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 25px auto;
+    height: 0;
+    width: 100%;
+    max-height: 0;
+    font-size: 1px;
+    line-height: 0;
+    clear: both;
+    border: none;
+    border-top: 2.5px solid rgba(70, 131, 180, 0.671);
+    border-bottom: 1px solid #ffffff;
+ }
 #stripe {
     background: #f1f1f6;
     padding:40px 0 0 0;
@@ -170,8 +184,7 @@ img{
     margin:auto;
 } */
 .intro{
-    
-    text-align:center ;
+    text-align:center;
     margin-top:35px;
 }
 
@@ -372,9 +385,6 @@ img{
 #project1{
     display:none;
 }
-.mode{
-    display:block !important;
-}
 #project2{
     display:none;
 }
@@ -382,6 +392,13 @@ img{
 #project3{
     display:none;
 }
+#project4{
+    display:none;
+}
+.mode{
+    display:block !important;
+}
+
 
 
 
@@ -618,7 +635,7 @@ img{
         font-size: 30px;
     }
 }
-@media(min-width:1200px){
+@media(min-width:996px){
     #link2:hover{
         color: rgb(0, 0, 0);
         background-color: rgb(221, 233, 154);
