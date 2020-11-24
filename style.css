@@ -206,8 +206,7 @@ img{
     padding-left: 30px;
     font-size: 16px;
     letter-spacing: 2px;
-    font-family: 'Muli';
-    
+    /* font-family: 'Muli'; */
 }
 #link{
     text-align: center;
@@ -314,11 +313,11 @@ img{
         font-size: 36px;
     }
     .in_tro h2{
-        font-size:22px;
+        font-size:24px;
         letter-spacing: 1.5px;
     }
     .in_tro h3{
-        font-size:19px;
+        font-size:22px;
         letter-spacing: 2.5px;
     }
 
@@ -538,14 +537,13 @@ img{
 }
 
 /* project2 */
-#link2{
+#link2{ 
     display: block;
     width: 85px;
     height: 55px;
     text-align: center;
     font-weight: bold;
     font-size: 15px;
-    /* padding: 20px; */
     border-radius: 999px;
     outline:none;
     border:none;
@@ -555,7 +553,6 @@ img{
     background-color: steelblue;
     margin-bottom: 20px;
     box-shadow:2px 2px 5px grey;
-    /* margin:20px auto; */
 }
 .projectpic{
     text-align: center;
@@ -812,7 +809,7 @@ img{
 }
 .further_intro p{
     letter-spacing: 2px;
-    font-size:18px;
+    font-size:22px;
     color:rgba(0, 0, 0, 0.644);
     line-height: 30px;
 }
