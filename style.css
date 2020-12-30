@@ -523,7 +523,16 @@ img {
     margin-top: 30px;
   }
 }
-
+/* author */
+.author {
+  font-size: 16px;
+  display: block;
+  font-family: 'Microsoft Jhenghei';
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: rgb(122, 121, 121);
+}
 /* video */
 .v-container {
   position: relative;
